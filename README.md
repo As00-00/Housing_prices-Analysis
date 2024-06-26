@@ -111,7 +111,15 @@ you can install the above by using the command
 --> pip install (module)
 
 # Directory Structure
+Housing_prices.ipynb -->Full code snippet with explanation
+kc_house_data.csv --> Dataset
+LICENSE --> 'project licensed under MIT license'
 
+# Contach Information
+
+You can contact at -->
+
+sankhlaaryan10@gmail.com
 
 
 
