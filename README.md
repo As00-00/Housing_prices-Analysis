@@ -19,7 +19,5 @@ EDA(Exploratory Data Analysis) revealed that prices are heavily affected by its 
 
 True model of the data was found to be a bit deviated with the Linear model and it was easier to interpret through visualisation techniques of non-linear models.
 
-Below are the various graphs plotted which would help you visualize how prices predictions varied from actual data from both the asssumptions of linear and non-linear models, and to understand what mattered most while deciding the price of a house at King County.
+Below link will redirect you to depository where various graphs are plotted which would help you visualize how prices predictions varied from actual data from both the asssumptions of linear and non-linear models, and to understand what mattered most while deciding the price of a house at King County.
 
-Linear-Model------>
-![image](https://github.com/As00-00/KingCounty_HousingData/assets/149066461/21f97bc9-7acc-4571-b140-cfec21af188a)
