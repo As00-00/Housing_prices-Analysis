@@ -57,7 +57,42 @@ Statistical models which were used in the process of analysing the data were-->
 
 Further regularisation Techniques like Ridge and Lasso regression were used to further optimize the model by tackling overfitting and multicollinearity.
 
-#Model Evaluation
+# Model Evaluation
+The above mentioned model were evaluated based on how accurate they were on testing data set.
+
+Testing data set was generated through K-Fold Cross Validation(CV) and evaluated based on R2 scores, mean sqaured error and graphical visualisation.
+
+It was seen that Linear model was able to explain 67% of variance in the data and polynomial regression of degree 2 was able to explain 80% of the variance on test data generated through CV.
+
+Random forests obviously came out by explaining 86% of variance in the data, infact they predicted the test data with sharp accuracy.
+
+But ofcourse data was more visually interpretable through linear models.
+
+# Results and Discussion
+
+It was seen that prices were highly positively related with the grade and sqft_living of the house.
+
+There was high multicollinearity between (#bathrooms and sqft_living) , (sqft_living,sqft_above) which seems obvious as well.
+
+While the model performs well in polynomial regression for training data when higher degree poly. is used, it tend to overfit the data, hence huge error in test data were observed.Therefore, when almost similar test parameter were given, it was fine, but when data was given which seemed an outlier, these models performed poorly. Although decision trees gave significantly better results by accurately interpreting the complexity of the data.
+
+
+Overall,Linear model was able to explain descent amount of variance, as data was a bit complex when price responses were at extreme ends.
+
+# Conclusion
+
+The project was able to successfully explain and predict the housing prices with high accuracy based on various peculiarities given in the dataset.
+
+Any real estate agent or stakeholder can have valuable insights by this project.
+
+# Future work
+Although the project is complete , the code snippet provided can further be used in websites and other ML models with a bit of changes so that outside users can also access and predict prices with there own testing data.
+
+In future, other predictors can be included in the dataset according to the economic growth of the location,etc.
+
+
+
+
 
 
 
