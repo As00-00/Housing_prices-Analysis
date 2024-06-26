@@ -21,3 +21,5 @@ True model of the data was found to be a bit deviated with the Linear model and 
 
 Below link will redirect you to depository where various graphs are plotted which would help you visualize how prices predictions varied from actual data from both the asssumptions of linear and non-linear models, and to understand what mattered most while deciding the price of a house at King County.
 
+Visual directory--> 
+
