@@ -21,5 +21,44 @@ True model of the data was found to be a bit deviated with the Linear model and 
 
 Below link will redirect you to depository where various graphs are plotted which would help you visualize how prices predictions varied from actual data from both the asssumptions of linear and non-linear models, and to understand what mattered most while deciding the price of a house at King County.
 
-Visual directory--> 
+Visual directory--> https://github.com/As00-00/KingCounty_HousingData/tree/main/Visuals
+
+These were the basic plots if you wanted to visualize at a broader scale, further illustrations , test data examples are compiled in the code snippet
+
+# Feature Engineering
+There were 21 predictors or features which were originally given, out of which only 15 were useful, so filtered them out.
+
+Out of those 15 features, some were showing very high multicollinearlity which was further handled by regularisation techniques which was incorporated with the statistical model.
+
+Other techniques like dimensional reduction is not used because of few number of predictor variables in the dataset (relative to how much is required for PCA)
+
+Transformation of variables was not required.
+
+# Modeling
+Firstly, Outliers from the data set were removed which were first visualised by plotting the box plots and Kernal density plots.
+
+Multicollinearity was seen through correlation Matrices and Variance Infation Factor(VIF).
+
+Then the data was normalised(standardized) and statistical model swere applied.
+
+Statistical models which were used in the process of analysing the data were-->
+
+1)Gradient Descent Algorithm (Linear Regression)
+
+2)Weighted Gadient Decent Algorithm
+
+3)Polynomial Regression
+
+4)Partial Least Squares
+
+5)Generalized Additive Models(GAM's)
+
+6)Decision Tress(Random Forests)
+
+Further regularisation Techniques like Ridge and Lasso regression were used to further optimize the model by tackling overfitting and multicollinearity.
+
+#Model Evaluation
+
+
+
 
