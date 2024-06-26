@@ -43,17 +43,17 @@ Then the data was normalised(standardized) and statistical model swere applied.
 
 Statistical models which were used in the process of analysing the data were-->
 
-1)Gradient Descent Algorithm (Linear Regression)
+1) Gradient Descent Algorithm (Linear Regression)
 
-2)Weighted Gadient Decent Algorithm
+2) Weighted Gadient Decent Algorithm
 
-3)Polynomial Regression
+3) Polynomial Regression
 
-4)Partial Least Squares
+4) Partial Least Squares
 
-5)Generalized Additive Models(GAM's)
+5) Generalized Additive Models(GAM's)
 
-6)Decision Tress(Random Forests)
+6) Decision Tress(Random Forests)
 
 Further regularisation Techniques like Ridge and Lasso regression were used to further optimize the model by tackling overfitting and multicollinearity.
 
@@ -89,6 +89,29 @@ Any real estate agent or stakeholder can have valuable insights by this project.
 Although the project is complete , the code snippet provided can further be used in websites and other ML models with a bit of changes so that outside users can also access and predict prices with there own testing data.
 
 In future, other predictors can be included in the dataset according to the economic growth of the location,etc.
+
+# Dependencies and Installation
+
+Following dependencies should be installed in your device-->
+
+-Python 3.x
+-Jupyter Notebook
+-Numpy
+-Pandas
+-Matplotlib
+-Seaborn
+-scipy
+-sklearn
+-statsmodels
+-pygam
+-shap
+
+you can install the above by using the command
+
+--> pip install (module)
+
+# Directory Structure
+
 
 
 
