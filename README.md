@@ -118,7 +118,7 @@ kc_house_data.csv --> Dataset
 LICENSE --> 'project licensed under MIT license'
 
 
-# Contach Information
+# Contact Information
 
 You can contact at -->
 
