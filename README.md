@@ -95,15 +95,25 @@ In future, other predictors can be included in the dataset according to the econ
 Following dependencies should be installed in your device-->
 
 -Python 3.x
+
 -Jupyter Notebook
+
 -Numpy
+
 -Pandas
+
 -Matplotlib
+
 -Seaborn
+
 -scipy
+
 -sklearn
+
 -statsmodels
+
 -pygam
+
 -shap
 
 you can install the above by using the command
